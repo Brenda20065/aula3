@@ -1,9 +1,9 @@
 import {
-    View, 
-    Text, 
-    TextInput, 
+    StyleSheet,
+    Text,
+    TextInput,
     TouchableOpacity,
-    StyleSheet
+    View
 } from 'react-native';
 
 export default function Login(){
@@ -13,7 +13,7 @@ export default function Login(){
             <TextInput style={styles.input} />
             <TextInput style={styles.input} secureTextEntry={true} />
             <TouchableOpacity style={styles.botao}>
-                <Text style={styles.titulo}>Login</Text>
+                <Text style={styles.titulo}>fazer Login</Text>
             </TouchableOpacity>
         </View>
     );
